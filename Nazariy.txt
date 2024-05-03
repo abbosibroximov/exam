@@ -4,6 +4,10 @@ string-> bu belgilar tipidir. Uning qiymatlarini o'zgartishni
 
  >>> my_str="Hello World!"
 
+bool-> Bu mantiqiy tipdir. U ikki qiymatni  qabul qilishi mumkin.
+  >>> my_bool=True
+  >>> my_bool=False
+
 int-> bu butun sonlar tipi.
   >>> my_int=23
 float-> bu haqiqiy sonlar tipi . Misol uchun: 14, 34.56, 0, -56.8
