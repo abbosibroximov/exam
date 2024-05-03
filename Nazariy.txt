@@ -1,0 +1,78 @@
+1.
+string-> bu belgilar tipidir. Uning qiymatlarini o'zgartishni
+     iloji yo'q.
+
+ >>> my_str="Hello World!"
+
+int-> bu butun sonlar tipi.
+  >>> my_int=23
+float-> bu haqiqiy sonlar tipi . Misol uchun: 14, 34.56, 0, -56.8
+>>>  my_float=45.78
+
+List-> BU belgilar , sonlar to'plamidir.
+ >>> my_list=["salom", 23, 45.89]
+
+Tuples-> Bu qiymatini o'zgartirib bo'lmaydigan list desa ham bo'ladi.
+ >>>my_tuple=(23, 45)
+
+dict-> Bu kalit so'zlar va ularning qiymatlaridan iborat to'plamdir.
+>>>my_dict={"key1"="salom", "key2"="xayr"}
+
+set -> Bu Listdagi bir xil elementlardan faqat bittasini oladigan tip.
+my_set=set()
+
+     
+
+2.
+AND-> Bunda solishtirilayotgan ikki mulohaza ham rost qiymat qabul qilsa,
+      ifoda qiymati True bo'ladi. Bundan boshqa barcha hollarda False qiymatni
+      qabul qiladi.
+
+      if 23>15 and "exam"!="imtihon":
+          result=True
+      else:
+          result=False
+      print(result)
+
+      >>> True
+
+OR-> Bunda solishtirilayotgan ikki mulohazadan hech bo'lmaganda biri rost bo'lganda
+     ifoda qiymati True bo'ladi. Ikkisi ham yolg'on bo'lganda  False bo'ladi.
+
+     if 15==15 or "exam"!="imtihon":
+         result=True
+     else:
+         result=False
+     print(result)
+
+     >>> False
+NOT-> Bunda ifodaning qiymati aksiga o'zgaradi. True->False , False->True.
+
+      if not 15==15:
+          result=True
+      else:
+          result=False
+      print(result)
+
+3.
+
+4. __init__ bu classlardagi Dunder methodlaridan biri. U classdan obyekt olganda
+     bu funksiyani chaqirmasaham ishlayveradi.
+
+     class country():
+        def __inint__ (self, area, population):
+            self.population=population
+            self.area=area
+5.   .  Inheritance-> Biz bitta class yaratib meros olish orqali boshqa classlarda ham shu
+    classning methodlarini ishlatishimiz mumkin.
+
+    class country():
+        def __inint__ (self, area)
+            self.area=area
+        def state():
+            pass
+    class Uzb(country):
+        def __init__(self,area):
+            country__init__(self, area)
+
+
