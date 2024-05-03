@@ -58,7 +58,10 @@ NOT-> Bunda ifodaning qiymati aksiga o'zgaradi. True->False , False->True.
           result=False
       print(result)
 
-3.
+3. Git bu kodlardagi o'zgarishni kuzatish, kim o'zgarish kiritganini kuzatish, kodlashdagi
+   hamkorlik uchun ishlatiladi.
+   Git orqali localda yozilgan kodni asosiyga qo'shib qo'yish yoki asosiyda yozilgan faylni 
+   localga clone qilish imkoniyati mavjud.
 
 4. __init__ bu classlardagi Dunder methodlaridan biri. U classdan obyekt olganda
      bu funksiyani chaqirmasaham ishlayveradi.
@@ -67,7 +70,7 @@ NOT-> Bunda ifodaning qiymati aksiga o'zgaradi. True->False , False->True.
         def __inint__ (self, area, population):
             self.population=population
             self.area=area
-5.   .  Inheritance-> Biz bitta class yaratib meros olish orqali boshqa classlarda ham shu
+5.  Inheritance-> Biz bitta class yaratib meros olish orqali boshqa classlarda ham shu
     classning methodlarini ishlatishimiz mumkin.
 
     class country():
